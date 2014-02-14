@@ -6,8 +6,8 @@ Sample project to bootstrap your koa app with vagrant.
 Installs
 ========
 - git
-- nodejs 0.11.11
-- nodemon (globally)
+- nodejs 0.11.11 (it lasts a while, be patient)
+- nodemon (globally installed)
 
 
 Required
@@ -35,6 +35,7 @@ The admin password of your host machine will be asked to enable the NFS shares, 
 TODO
 ====
 - start nodemon automatically after vagrant up
+- nodemon doesn't detect file changes and therefore doesn't reload
 - replace chef solo with bash script
 - add koa-routes and clean code
 - find out how to deactivate password prompt (password is "vagrant" btw)
