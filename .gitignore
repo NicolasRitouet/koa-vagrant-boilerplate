@@ -1,6 +1,7 @@
 # Node
 node_modules
 npm-debug.log
+.npm
 
 # Mac OS x
 .DS_Store
@@ -9,6 +10,11 @@ npm-debug.log
 .vagrant
 *.lock
 .sudo_as_admin_successful
+.cache
+.config
+.bash_history
+.viminfo
+
 
 # Various
 tmp
