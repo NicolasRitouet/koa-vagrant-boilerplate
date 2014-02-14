@@ -1,0 +1,19 @@
+{
+  "name": "bitkoinAutomate",
+  "description": "Vending machine that accepts bitcoins",
+  "version": "0.0.1",
+  "author": {
+    "name": "Nicolas Ritouet",
+    "email": "nicolas@ritouet.com",
+    "web": "http://nicolas.ritouet.com"
+  },
+  "dependencies": {
+    "koa": "~0.4.0",
+    "q": "~1.0.0",
+    "request": "~2.33.0"
+  },
+  "engines": {
+    "node": ">= 0.11.9"
+  },
+  "main": "app.js"
+}
