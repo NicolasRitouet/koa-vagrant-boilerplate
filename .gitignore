@@ -1,8 +1,15 @@
+# Node
 node_modules
 npm-debug.log
+
+# Mac OS x
 .DS_Store
-tmp
+
+# Vagrant
 .vagrant
-cookbooks
 *.lock
+.sudo_as_admin_successful
+
+# Various
+tmp
 *.out
